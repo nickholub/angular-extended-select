@@ -1,4 +1,4 @@
-angular-extended-select
+angular-custom-select
 =====================
 
 AngularJS select directive with advanced functionality

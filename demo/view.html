@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="form-inline">
+            <span wt-select label="Extended Select"
+                  ng-model="value"
+                  options="values"
+                  ng-change="newValue = value">
+            </span>
+        </div>
+        <hr/>
+        <div>
+            selected value: {{value}}
+        </div>
+        <div>
+            ng-change listener value: {{newValue}}
+        </div>
+    </div>
+</div>
